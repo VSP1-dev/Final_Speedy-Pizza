@@ -33,9 +33,9 @@ road1_img = loadImage("../images/road.png");
 road2_img = loadImage("../images/road.png");
 road3_img = loadImage("../images/road2.png");
 road4_img = loadImage("../images/road2.png");
-delivery_sound = loadSound("../musics/point.wav");
-crash_sound = loadSound("../musics/crashed.wav");
-pick_sound = loadSound("../musics/picked.wav");
+//delivery_sound = loadSound("../musics/point.wav");
+//crash_sound = loadSound("../musics/crashed.wav");
+//pick_sound = loadSound("../musics/picked.wav");
 }
 
 
