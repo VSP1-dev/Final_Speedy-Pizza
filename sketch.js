@@ -33,9 +33,9 @@ road1_img = loadImage("../images/road.png");
 road2_img = loadImage("../images/road.png");
 road3_img = loadImage("../images/road2.png");
 road4_img = loadImage("../images/road2.png");
-//delivery_sound = loadSound("../musics/point.wav");
+delivery_sound = loadSound("../musics/point.wav");
 //crash_sound = loadSound("../musics/crashed.wav");
-//pick_sound = loadSound("../musics/picked.wav");
+pick_sound = loadSound("../musics/picked.wav");
 }
 
 
@@ -97,7 +97,7 @@ function setup() {
   road4.addImage("road4", road4_img);
   road4.scale = 2;
   car4 = createSprite(550,280,10,10);
-  car4.addImage("car_4", car4_img);
+  //car4.addImage("car_4", car4_img);
   car4.scale = 0.2;
   shop.addImage("shop" , shop_img);
 
@@ -744,7 +744,7 @@ function car_movement()
   if(player.collide(car1) || player.collide(car2) || player.collide(car3 || player.collide(car4)))
   {
     score = score -1;
-    crash_sound.play()
+    //crash_sound.play()
   }
 
 }
